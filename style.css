@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 70px;
+  padding: 10px;
+}
+
+nav .navigation {
+  display: flex;
+}
+
+nav .navigation li {
+  list-style-type: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main_container {
+  width: 50%;
+  margin: 50px auto;
+}
