@@ -1,6 +1,6 @@
 <?php 
 
-// Data
+// Dati
 $faqs = [
     [
         'question'=>"Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
@@ -65,5 +65,5 @@ $faqs = [
     ],
   ];
 
-var_dump($faqs);
+
 ?>

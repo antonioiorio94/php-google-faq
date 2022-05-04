@@ -8,6 +8,17 @@ Mi raccomando di gestire per prima cosa la visualizzazione dei dati, anche in ma
 
 <?php   
 
-phpinfo();
+include 'data.php';
+
+foreach ($faqs as $faq){
+  foreach($faq as $key => $paragraph){
+
+    if($key == "question"){
+      echo('<h1>' . $paragraph . '</h2>');
+    }elseif($key == "answer"){
+      echo('<p>' . $paragraph . '</p>');
+    }
+  }
+};
 
 ?>
